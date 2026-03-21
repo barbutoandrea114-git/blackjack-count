@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./imgs/asso.jfif" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/king.webp" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/queen.webp" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/jack.webp" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/dieci.png" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/nove.png" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/otto.png" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/sette.jfif" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/sei.jfif" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/cinque.jfif" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/quattro.jfif" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/tre.jfif" class="my-img" alt="">
+        </div>
+        <div class="card">
+            <img src="./imgs/due.jfif" class="my-img" alt="">
+        </div>
+        <div class="row">
+            <div class="counter d-flex col-6 justify-content-center align-items-start mt-4 flex-wrap">
+                <div class="number text-light btn btn-primary w-50">0</div>
+                <span class="text-light ms-5">Questo è il</span><span class="text-danger ms-1 fw-bold">normal
+                    count</span>
+                <span class="ms-3"><button id="button-rst" class="btn btn-danger">Reset</button></span>
+
+                <div class="results w-100 d-flex justify-content-between">
+                    <button id="calculate-count" class="btn btn-success w-50 ms-2">Calcola true count</button>
+                    <div class="ms-2">
+                        <span class="text-white">Risultato</span>
+                        <span class="text-danger me-5 fw-bold"> true count:</span>
+                    </div>
+                    <span id="result-box" class="btn btn-primary">0</span>
+                </div>
+            </div>
+
+            <div class="score-history col-6 text-center">
+                <h3 class="text-white">TC/NC/DECKS</h3>
+                <ol id="history-list">
+                </ol>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src=" ./script.js">
+    </script>
+</body>
+
+</html>

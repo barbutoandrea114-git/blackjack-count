@@ -1,0 +1,19 @@
+body {
+    background-color: green !important;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(34, 34, 34) !important;
+}
+
+
+.card {
+    width: calc(100%/6);
+}
+
+#history-list {
+    overflow: scroll;
+    height: 300px;
+}
